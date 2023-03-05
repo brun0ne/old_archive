@@ -1,0 +1,13 @@
+STEROWANIE:
+- strza³ki: poruszanie siê,
+- SPACJA: przycisk akcji (np. aby wejœæ do kopalni nale¿y stan¹æ przed ni¹ i klikn¹æ spacjê),
+- lewy przycisk myszy: niszczenie objektów w kopalnii (nale¿y na nie klikn¹æ, aby jednak kopaæ lepsze rudy nale¿y mieæ lepszy kilof (o tym w ekwipunku)),
+- E: w³¹czanie akwipunku,
+- F: wy³¹czanie ekwipunku,
+- ESC: wyjœcie z kopalnii (je¿eli jest siê w kopalnii), wyjœcie z gry (je¿eli jest siê w g³ównym œwiecie gry),
+- F4: zapis gry (jest ona automatycznie wczytywana po wejœciu do gry, oraz automatycznie zapisywana podczas wyjœcia z gry, zaleca siê jednak czêste zapisywanie bo gra czasami siê crash'uje),
+- przytrzymaæ F3: wyœwietlanie koordynatów gracza w prawym górnym rogu ekranu.
+
+Aby przejœæ do nastêpnego "sektoru" kopalni nale¿y wyjœæ po za "œciankê" aktualnego "sektoru".
+
+http://theconstrugert.blogspot.com

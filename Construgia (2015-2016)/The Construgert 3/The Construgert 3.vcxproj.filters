@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Main">
+      <UniqueIdentifier>{de9ee217-858f-470e-9ca0-39ebc4e3cfad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Locations">
+      <UniqueIdentifier>{b3a6446b-9c9f-4ae6-b0ba-9f6267e08c03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Locations">
+      <UniqueIdentifier>{511db402-f13b-44a3-9ff0-baa1c681af4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Locations\ConCity_">
+      <UniqueIdentifier>{8d209169-edf7-4cce-8f19-055e2c300c8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Locations\ConCity_">
+      <UniqueIdentifier>{76625aba-8621-4814-84c8-6dff9db84602}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine_Classes">
+      <UniqueIdentifier>{96679778-4371-4d8d-88c5-0d4ecd145c47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine_Core">
+      <UniqueIdentifier>{c2a1f2a7-d0af-49bf-afb4-5cd7fd4891ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine_Core">
+      <UniqueIdentifier>{efd0a723-5a19-42d6-bcad-6caf633aed82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine_Classes">
+      <UniqueIdentifier>{f0ebff4f-f18f-4a5a-ad9b-e2b3db748750}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine_Classes\eq">
+      <UniqueIdentifier>{bb954769-4aaa-427e-ab93-2887755fa454}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine_Classes\quest system">
+      <UniqueIdentifier>{5baabce7-4f27-4833-a154-ef5d887fa5dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Locations\ForestOfThreeTrees_">
+      <UniqueIdentifier>{b092dbfd-15ba-4a06-b2d3-a28de2f48777}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Locations\ForestOfThreeTrees_">
+      <UniqueIdentifier>{38e397a0-2efc-4f1f-9b83-a8d14f3b5cb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine_Core\Skills">
+      <UniqueIdentifier>{381d64cd-51e6-4e40-bb5b-0b7d52b8a0dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Locations\Volcano_">
+      <UniqueIdentifier>{3fb11d97-52cf-4db1-a870-9ec982186e5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Locations\Volcano_">
+      <UniqueIdentifier>{6fd7104b-d5a8-40dc-9d10-4006540795ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine_Classes\Cases">
+      <UniqueIdentifier>{6839ae7f-5885-440c-a9e5-f72862f7f1e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine_Classes\Cases">
+      <UniqueIdentifier>{38a2ed61-b9fa-46c7-8b5c-79ea64424a15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine_Classes\Special">
+      <UniqueIdentifier>{b9c51815-7b10-4450-ba11-255af0a0b624}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="App.cpp">
+      <Filter>Source Files\Engine_Core</Filter>
+    </ClCompile>
+    <ClCompile Include="World.cpp">
+      <Filter>Source Files\Engine_Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Missile.cpp">
+      <Filter>Source Files\Engine_Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files\Engine_Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="game.cpp">
+      <Filter>Source Files\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Mob.cpp">
+      <Filter>Source Files\Engine_Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Location_Tools.cpp">
+      <Filter>Source Files\Engine_Core</Filter>
+    </ClCompile>
+    <ClCompile Include="ConCity_Ratusz.cpp">
+      <Filter>Source Files\Locations\ConCity_</Filter>
+    </ClCompile>
+    <ClCompile Include="ConCity.cpp">
+      <Filter>Source Files\Locations\ConCity_</Filter>
+    </ClCompile>
+    <ClCompile Include="NPC.cpp">
+      <Filter>Source Files\Engine_Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="eq.cpp">
+      <Filter>Source Files\Engine_Classes\eq</Filter>
+    </ClCompile>
+    <ClCompile Include="missile_area.cpp">
+      <Filter>Source Files\Engine_Classes\eq</Filter>
+    </ClCompile>
+    <ClCompile Include="main_missile.cpp">
+      <Filter>Source Files\Engine_Classes\eq</Filter>
+    </ClCompile>
+    <ClCompile Include="ConCity_Zbrojownia.cpp">
+      <Filter>Source Files\Locations\ConCity_</Filter>
+    </ClCompile>
+    <ClCompile Include="graphics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ConCity_BrunonCave.cpp">
+      <Filter>Source Files\Locations\ConCity_</Filter>
+    </ClCompile>
+    <ClCompile Include="quest.cpp">
+      <Filter>Source Files\Engine_Classes\quest system</Filter>
+    </ClCompile>
+    <ClCompile Include="quests_system.cpp">
+      <Filter>Source Files\Engine_Classes\quest system</Filter>
+    </ClCompile>
+    <ClCompile Include="ConCity_FoodShop.cpp">
+      <Filter>Source Files\Locations\ConCity_</Filter>
+    </ClCompile>
+    <ClCompile Include="ForestOfThreeTrees.cpp">
+      <Filter>Source Files\Locations\ForestOfThreeTrees_</Filter>
+    </ClCompile>
+    <ClCompile Include="FOTT_Zbrojownia.cpp">
+      <Filter>Source Files\Locations\ForestOfThreeTrees_</Filter>
+    </ClCompile>
+    <ClCompile Include="music.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveToPoint.cpp">
+      <Filter>Source Files\Engine_Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>Source Files\Engine_Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Skill.cpp">
+      <Filter>Source Files\Engine_Core\Skills</Filter>
+    </ClCompile>
+    <ClCompile Include="Skills.cpp">
+      <Filter>Source Files\Engine_Core\Skills</Filter>
+    </ClCompile>
+    <ClCompile Include="Volcano_.cpp">
+      <Filter>Source Files\Locations\Volcano_</Filter>
+    </ClCompile>
+    <ClCompile Include="actQuest.cpp">
+      <Filter>Source Files\Engine_Classes\quest system</Filter>
+    </ClCompile>
+    <ClCompile Include="case_element.cpp">
+      <Filter>Source Files\Engine_Classes\Cases</Filter>
+    </ClCompile>
+    <ClCompile Include="Trasher.cpp">
+      <Filter>Source Files\Engine_Classes</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="App.h">
+      <Filter>Header Files\Engine_Core</Filter>
+    </ClInclude>
+    <ClInclude Include="World.h">
+      <Filter>Header Files\Engine_Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Missile.h">
+      <Filter>Header Files\Engine_Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files\Engine_Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Mob.h">
+      <Filter>Header Files\Engine_Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Location_Tools.h">
+      <Filter>Header Files\Engine_Core</Filter>
+    </ClInclude>
+    <ClInclude Include="ConCity.h">
+      <Filter>Header Files\Locations\ConCity_</Filter>
+    </ClInclude>
+    <ClInclude Include="ConCity_Ratusz.h">
+      <Filter>Header Files\Locations\ConCity_</Filter>
+    </ClInclude>
+    <ClInclude Include="NPC.h">
+      <Filter>Header Files\Engine_Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="eq.h">
+      <Filter>Header Files\Engine_Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="ConCity_Zbrojownia.h">
+      <Filter>Header Files\Locations\ConCity_</Filter>
+    </ClInclude>
+    <ClInclude Include="ConCity_FoodShop.h">
+      <Filter>Header Files\Locations\ConCity_</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ConCity_BrunonCave.h">
+      <Filter>Header Files\Locations\ConCity_</Filter>
+    </ClInclude>
+    <ClInclude Include="quests_system.h">
+      <Filter>Header Files\Engine_Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="ForestOfThreeTrees.h">
+      <Filter>Header Files\Locations\ForestOfThreeTrees_</Filter>
+    </ClInclude>
+    <ClInclude Include="FOTT_Zbrojownia.h">
+      <Filter>Header Files\Locations\ForestOfThreeTrees_</Filter>
+    </ClInclude>
+    <ClInclude Include="music.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveToPoint.h">
+      <Filter>Header Files\Engine_Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>Header Files\Engine_Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Skills.h">
+      <Filter>Header Files\Engine_Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Volcano_.h">
+      <Filter>Header Files\Locations\Volcano_</Filter>
+    </ClInclude>
+    <ClInclude Include="actQuest.h">
+      <Filter>Header Files\Engine_Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="case_element.h">
+      <Filter>Header Files\Engine_Classes\Cases</Filter>
+    </ClInclude>
+    <ClInclude Include="Trasher.h">
+      <Filter>Header Files\Engine_Classes\Special</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

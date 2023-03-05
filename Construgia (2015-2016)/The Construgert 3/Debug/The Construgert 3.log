@@ -1,0 +1,51 @@
+﻿Build started 2016-01-12 19:03:49.
+     1>Project "E:\Projekty C++\The Construgert 3\The Construgert 3\The Construgert 3.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\Construgia.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt FOTT_Zbrojownia.cpp
+         FOTT_Zbrojownia.cpp
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Projekty C++\The Construgert 3\Debug\Construgia.exe" /NOLOGO alleg.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Construgia.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\Projekty C++\The Construgert 3\Debug\Construgia.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Projekty C++\The Construgert 3\Debug\Construgia.lib" /MACHINE:X86 Debug\actQuest.obj
+         Debug\App.obj
+         Debug\case_element.obj
+         Debug\ConCity.obj
+         Debug\ConCity_BrunonCave.obj
+         Debug\ConCity_FoodShop.obj
+         Debug\ConCity_Ratusz.obj
+         Debug\ConCity_Zbrojownia.obj
+         Debug\eq.obj
+         Debug\ForestOfThreeTrees.obj
+         Debug\FOTT_Zbrojownia.obj
+         Debug\game.obj
+         Debug\graphics.obj
+         Debug\Item.obj
+         Debug\Location_Tools.obj
+         Debug\main.obj
+         Debug\main_missile.obj
+         Debug\Missile.obj
+         Debug\missile_area.obj
+         Debug\Mob.obj
+         Debug\MoveToPoint.obj
+         Debug\music.obj
+         Debug\NPC.obj
+         Debug\Player.obj
+         Debug\quest.obj
+         Debug\quests_system.obj
+         Debug\Skill.obj
+         Debug\Skills.obj
+         Debug\Trasher.obj
+         Debug\Volcano_.obj
+         Debug\World.obj
+         LINK : E:\Projekty C++\The Construgert 3\Debug\Construgia.exe not found or not built by the last incremental link; performing full link
+         The Construgert 3.vcxproj -> E:\Projekty C++\The Construgert 3\Debug\Construgia.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\Projekty C++\The Construgert 3\Debug\Construgia.exe;#1" /manifest Debug\Construgia.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\Construgia.unsuccessfulbuild".
+         Touching "Debug\Construgia.lastbuildstate".
+     1>Done Building Project "E:\Projekty C++\The Construgert 3\The Construgert 3\The Construgert 3.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.10

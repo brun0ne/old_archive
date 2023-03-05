@@ -1,0 +1,18 @@
+Gra The Constugert (by Brunon Blok) ma wsparcie dla twórców modyfikacji.
+
+Informacje o modyfikowaniu gry The Constugert:
+
+Grê The Constugert (by Brunon Blok) mo¿na legalnie i w pe³ni myfikodowaæ graficznie: edyt¹c istniej¹ce ju¿ pliki graficzne gry w folderze Grafika (*.bmp) w zewnêtrznym programie graficznym (np. Paint, GIMP, Adobe Photoshop), lub podmieniaj¹c istniej¹ce pliki graficzne gry (*.bmp) na swoje, z tym samym rozszerzeniem (*.bmp) i t¹ sam¹ nazw¹. Aby obrazek nie mia³ t³a, lub mia³ przezroczyste czêœci/by³ przezroczysty nale¿y przezroczyste czesci wypelnic kolorem rozowym (w Paint: w kolorach niestandardowych wybraæ kolor o wartoœciach 255 czerwonego, 0 zielonego, 255 niebieskiego).
+
+W Grze The Construgert (by Brunon Blok) mo¿na równie¿ legalnie podmieniaæ muzykê (w folderze "Muzyka"). Nale¿y wrzuciæ tam inn¹ muzykê, z tym samym rozszerzeniem i nazw¹. SZABLON: (Project_System_12_-_Breath_of_Hope.wav)!
+
+WPROWADZANIE ZMIAN W PLIKACH W FOLDERZE "DATA" UWA¯ANE JEST ZA OSZUSTWO!
+
+PROSZÊ NIE UDOSTÊPNIAÆ SWOJEJ WERSJI GRY W INTERNECIE!!!
+
+Proszê o NIE ZMIENIANIE zawartoœci tego pliku oraz NIE USUWANIE go!
+
+ORYGINALN¥ WERSJÊ GRY MO¯NA POBRAÆ TYLKO Z http://theconstrugert.blogspot.com !!!
+
+Pozdrawiam, twórca gry
+- Brunon Blok

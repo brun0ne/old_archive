@@ -1,0 +1,85 @@
+﻿Build started 2016-01-12 19:07:37.
+     1>Project "E:\Projekty C++\The Construgert 3\The Construgert 3\The Construgert 3.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\Construgia.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt actQuest.cpp App.cpp case_element.cpp ConCity.cpp ConCity_BrunonCave.cpp ConCity_FoodShop.cpp ConCity_Ratusz.cpp ConCity_Zbrojownia.cpp eq.cpp ForestOfThreeTrees.cpp FOTT_Zbrojownia.cpp game.cpp graphics.cpp Item.cpp Location_Tools.cpp main.cpp main_missile.cpp Missile.cpp missile_area.cpp Mob.cpp MoveToPoint.cpp music.cpp NPC.cpp Player.cpp quest.cpp quests_system.cpp Skill.cpp Skills.cpp Trasher.cpp Volcano_.cpp World.cpp
+         actQuest.cpp
+         App.cpp
+         case_element.cpp
+         ConCity.cpp
+         ConCity_BrunonCave.cpp
+         ConCity_FoodShop.cpp
+         ConCity_Ratusz.cpp
+         ConCity_Zbrojownia.cpp
+         eq.cpp
+         ForestOfThreeTrees.cpp
+         FOTT_Zbrojownia.cpp
+         game.cpp
+         graphics.cpp
+         Item.cpp
+         Location_Tools.cpp
+         main.cpp
+     1>main.cpp(63): warning C4390: ';' : empty controlled statement found; is this the intent?
+         main_missile.cpp
+         Missile.cpp
+         missile_area.cpp
+         Mob.cpp
+         Compiling...
+         MoveToPoint.cpp
+         music.cpp
+         NPC.cpp
+         Player.cpp
+         quest.cpp
+         quests_system.cpp
+         Skill.cpp
+         Skills.cpp
+         Trasher.cpp
+         Volcano_.cpp
+         World.cpp
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Projekty C++\The Construgert 3\Release\Construgia.exe" /NOLOGO alleg.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\Construgia.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\Projekty C++\The Construgert 3\Release\Construgia.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Projekty C++\The Construgert 3\Release\Construgia.lib" /MACHINE:X86 Release\actQuest.obj
+         Release\App.obj
+         Release\case_element.obj
+         Release\ConCity.obj
+         Release\ConCity_BrunonCave.obj
+         Release\ConCity_FoodShop.obj
+         Release\ConCity_Ratusz.obj
+         Release\ConCity_Zbrojownia.obj
+         Release\eq.obj
+         Release\ForestOfThreeTrees.obj
+         Release\FOTT_Zbrojownia.obj
+         Release\game.obj
+         Release\graphics.obj
+         Release\Item.obj
+         Release\Location_Tools.obj
+         Release\main.obj
+         Release\main_missile.obj
+         Release\Missile.obj
+         Release\missile_area.obj
+         Release\Mob.obj
+         Release\MoveToPoint.obj
+         Release\music.obj
+         Release\NPC.obj
+         Release\Player.obj
+         Release\quest.obj
+         Release\quests_system.obj
+         Release\Skill.obj
+         Release\Skills.obj
+         Release\Trasher.obj
+         Release\Volcano_.obj
+         Release\World.obj
+         Generating code
+     1>e:\projekty c++\the construgert 3\the construgert 3\eq.cpp(206): warning C4715: 'eq::findArea' : not all control paths return a value
+         Finished generating code
+         The Construgert 3.vcxproj -> E:\Projekty C++\The Construgert 3\Release\Construgia.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\Projekty C++\The Construgert 3\Release\Construgia.exe;#1" /manifest Release\Construgia.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\Construgia.unsuccessfulbuild".
+         Touching "Release\Construgia.lastbuildstate".
+     1>Done Building Project "E:\Projekty C++\The Construgert 3\The Construgert 3\The Construgert 3.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:25.76
