@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<objs>
+  <obj>
+    <img>buildings/shortHouse1.png</img>
+  </obj>
+  <obj>
+    <img>buildings/shortHouse2.png</img>
+  </obj>
+  <obj>
+    <img>buildings/shortHouse3.png</img>
+  </obj>
+  <obj>
+    <img>buildings/shortHouse4.png</img>
+  </obj>
+  <obj>
+    <img>buildings/Tree1.png</img>
+  </obj>
+  <obj>
+    <img>buildings/Tree2.png</img>
+  </obj>
+  <obj>
+    <img>buildings/bush1.png</img>
+  </obj>
+  <obj>
+    <img>buildings/grass.png</img>
+  </obj>
+  <obj>
+    <img>buildings/bigBuilding.png</img>
+  </obj>
+  <obj>
+    <img>buildings/_basim.png</img>
+  </obj>
+  <obj>
+    <img>buildings/Bulletin.gif</img>
+  </obj>
+<obj><img>flower.png</img></obj>
+<obj><img>building.png</img></obj>
+<obj><img>billboard.png</img></obj>
+</objs>

@@ -1,0 +1,79 @@
+.red{
+  background-color: red;
+}
+.blue{
+  background-color: blue;
+}
+.yellow{
+  background-color: yellow;
+}
+
+.block{
+  border-style: solid;
+  border-radius: 6px;
+  border-width: 2px;
+  border-color: #404040;
+}
+
+body{
+  height: 100%;
+  background: url(graphics/scr_.jpg) no-repeat center center fixed; 
+  background-size: cover;
+}
+
+.link{
+  color: black;
+}
+
+.link:hover{
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#upperSlider{
+  position: absolute;
+  width: 100%;
+  top: 5%;
+  height: 25%;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  background: #f2f2f2 url(graphics/construgia.png) no-repeat center center;
+  background-size: contain;
+}
+
+#und_logo_text{
+  position: absolute;
+  font-family: consolas, consolas;
+  font-size: 2.3vmin;
+  top: 24%;
+  left: 46%;
+}
+
+#centerPage{
+  position: absolute;
+  border-style: solid;
+  border-radius: 12px;
+  border-color: #404040;
+  right: 20%;
+  left: 20%;
+  top: 35%;
+  min-height: 800px;
+  background-color: #f2f2f2;
+}
+
+#leftPage{
+  position: absolute;
+  top: 40%;
+  width: 17%;
+  word-wrap: break-word;
+  margin-left: 1%;
+}
+
+#rightPage{
+  position: absolute;
+  top: 40%;
+  width: 17%;
+  word-wrap: break-word;
+  right: 1%;
+}

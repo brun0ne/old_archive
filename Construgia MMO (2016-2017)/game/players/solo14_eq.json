@@ -1,0 +1,1 @@
+{"Items":{"0":{"type":"canon","name":"Basic Cannon","img":"graphics/canons/canon_start.png","speed":0.5,"damage":2,"lifeTime":50,"health":0,"number":0}},"mainMissile":{"name":"TestMissile","img":"graphics/canons/iron_canon_2.png","speed":0.5,"damage":5,"lifeTime":50},"EQ":{"items_count":1}}

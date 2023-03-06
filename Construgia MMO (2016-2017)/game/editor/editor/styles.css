@@ -1,0 +1,217 @@
+html, body{
+  overflow: hidden;
+  height: 100%;
+  
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.pixelated {
+  image-rendering: optimizeSpeed;             /* Legal fallback */
+  image-rendering: -moz-crisp-edges;          /* Firefox        */
+  image-rendering: -o-crisp-edges;            /* Opera          */
+  image-rendering: -webkit-optimize-contrast; /* Safari         */
+  image-rendering: optimize-contrast;         /* CSS3 Proposed  */
+  image-rendering: crisp-edges;               /* CSS4 Proposed  */
+  image-rendering: pixelated;                 /* CSS4 Proposed  */
+  -ms-interpolation-mode: nearest-neighbor;   /* IE8+           */
+}
+
+#logout_button{
+  position: absolute;
+  top: 7%;
+  right: 1%;
+  font-family: consolas, consolas;
+  font-size: 2.0vmin;
+}
+
+#user_nick{
+	position: absolute;
+	top: 0.5%;
+	left: 0.5%;
+  font-family: consolas, consolas;
+  font-size: 2.0vmin;
+}
+
+#map_name_area{
+	position: absolute;
+  font-family: consolas, consolas;
+  font-size: 2.0vmin;
+  left: 0.5%;
+	top: 4.2%;
+	z-index: 5;
+}
+
+.block{
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 6px;
+  background-color: #f2f2f2;
+}
+
+.clickable:hover{
+  cursor: pointer;
+}
+
+#container{
+  position: absolute;
+  width: 20%;
+  height: 75%;
+  overflow: auto;
+  font-family: consolas, consolas;
+  font-size: 2.0vmin;
+  margin: 0.5%;
+	top: 10%;
+}
+
+#bottom_container{
+  position: absolute;
+  width: 20%;
+  bottom: 6%;
+  font-family: consolas, consolas;
+  font-size: 2.0vmin;
+}
+
+#top_options{
+  position: absolute;
+  right: 1%;
+  top: 1%;
+  min-width: 14%;
+  font-family: consolas, consolas;
+  font-size: 2.0vmin;
+}
+
+#top_options_inner{
+  margin: 2%;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+
+.disableTextSelect {
+	 -webkit-user-select: none;
+	 -moz-user-select: none;
+	 -ms-user-select: none;
+	 -o-user-select: none;
+	 user-select: none;
+}
+
+#selected_window{
+  position: absolute;
+  bottom: 0%;
+  right: 0%;
+  width: 20%;
+  height: 40%;
+  overflow: auto;
+  border-radius: 6px 0px 0px 0px;
+}
+
+#inner_selected_window{
+  margin: 2%;
+}
+
+#settings_window{
+  position: absolute;
+  left: 30%;
+  width: 45%;
+  top: 20%;
+  height: 60%;
+  display: none;
+}
+
+#settings_window_inner{
+  margin: 2%;
+  font-family: consolas, consolas;
+  font-size: 2.0vmin;
+}
+
+#settings_left_block{
+  width: 50%;
+  position: absolute;
+  left: 2%;
+  top: 21%;
+}
+
+#settings_right_block{
+  width: 50%;
+  position: absolute;
+  right: 0%;
+  top: 20%;
+}
+
+#settings_window_off_button{
+  position: absolute;
+  width: 25px;
+  height: auto;
+  right: 2%;
+  top: 2%;
+}
+
+#map_list_window{
+  position: absolute;
+  left: 30%;
+  width: 45%;
+  top: 20%;
+  height: 60%;
+  display: none;
+}
+
+#map_list_window_inner{
+  margin: 2%;
+  font-family: consolas, consolas;
+  font-size: 2.5vmin;
+}
+
+#map_list_window_off_button{
+  position: absolute;
+  width: 25px;
+  height: auto;
+  right: 2%;
+  top: 2%;
+}
+
+#map_script_window{
+  position: absolute;
+  left: 30%;
+  width: 45%;
+  top: 20%;
+  height: 60%;
+  display: none;
+}
+
+#map_script_window_inner{
+  margin: 2%;
+	margin-top: 8%;
+  font-family: consolas, consolas;
+  font-size: 2.0vmin;
+	height: 84%;
+	overflow: auto;
+}
+
+#map_script_window_off_button{
+  position: absolute;
+  width: 25px;
+  height: auto;
+  right: 2%;
+  top: 2%;
+}
+
+#editor_mode_buttons{
+	position: fixed;
+	width: 20%;
+	top: 8%;
+	height: 3%;
+	left: 0.5%;
+	text-align: center;
+}

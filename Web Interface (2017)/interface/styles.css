@@ -1,0 +1,124 @@
+body{
+  opacity: 0;
+  background: #10100a;
+  color: #ebebe0;
+  font-family: consolas, consolas;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.window{
+  outline-style: solid;
+  outline-width: 1px;
+  outline-color: white;
+  background: black;
+  color: #ebebe0;
+  font-family: consolas, consolas;
+}
+
+.CodeMirror {border-top: 1px solid black; border-bottom: 1px solid black;}
+      .CodeMirror-selected  { background-color: blue !important; }
+      .CodeMirror-selectedtext { color: white; }
+      .styled-background { background-color: #ff7; }
+
+.clickable{
+  cursor: pointer;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+
+input[type="text"], textarea{
+  border: none;
+  border-bottom: 1px solid #ccc;
+  background-color: inherit;
+  color: white;
+  resize: none;
+  -moz-tab-size : 3;
+      -o-tab-size : 3;
+         tab-size : 3;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+.ui-resizable-handle {
+  z-index: auto !important;
+}
+
+.content{}
+
+.content::-webkit-scrollbar {
+  display: none;
+}
+
+.console_content{
+	white-space: pre-wrap;
+}
+
+.last{}
+
+.ui-resizable-s {
+  height: 1px;
+  bottom: 0px;
+}
+
+.ui-resizable-e {
+  width: 1px;
+  right: 0px;
+}
+
+#context_menu{
+  position: absolute;
+  display: none;
+  left: 0px;
+  top: 0px;
+  transition: left 0.2s, top 0.2s;
+}
+
+.clickable{}
+
+.noDrag{}
+
+.clickable:hover{
+  cursor: pointer;
+}
+
+.hoverer{ text-align: right; color: #42f4f1; opacity: 0; transition: opacity 1s;}
+
+.hoverer:hover{ color: #42f4f1; opacity: 1; transition: opacity 1s;}
+
+.notFullVisible{
+  opacity: 0.3;
+  transition: opacity 1s;
+}
+
+.notFullVisible:hover{
+  opacity: 1;
+  transition: opacity 1s;
+}
+
+hr{
+  margin-bottom: -10px !important;
+}
+
+.dropdown-submenu{position:relative;}
+.dropdown-submenu>.dropdown-menu{top:0;left:100%;max-width:180px;margin-top:-6px;margin-right:-1px;-webkit-border-radius:6px 6px 6px 6px;-moz-border-radius:6px 6px 6px 6px;border-radius:6px 6px 6px 6px;}
+.dropdown-submenu:hover>.dropdown-menu{display:block;}
+.dropdown-submenu:hover>a:after{border-left-color:#ffffff;}
+.dropdown-submenu.pull-left{float:none;}.dropdown-submenu.pull-left>.dropdown-menu{left:-100%;margin-left:10px;-webkit-border-radius:6px 6px 6px 6px;-moz-border-radius:6px 6px 6px 6px;border-radius:6px 6px 6px 6px;}
+.dropdown-menu-right {margin-left:0;}

@@ -1,0 +1,45 @@
+body{
+  opacity: 0;
+  background: #10100a;
+  color: #ebebe0;
+  font-family: consolas, consolas;
+  width: 99%;
+  height: 100%;
+}
+
+#welcometo_container{
+  width: 20%;
+}
+
+#welcometo{
+  margin-left: -50%;
+}
+
+#by_container{
+  width: 20%;
+}
+
+#by{
+  margin-right: -50%;
+}
+
+#login_area{
+  font-size: 2.0vmin;
+}
+
+#bottom_bar_container{
+  width: 100%;
+  position: absolute;
+  bottom: 0.5%;
+}
+
+#bottom_bar{
+  text-align: center;
+  font-size: 1.3vmin;
+  font-family: Consolas, Consolas;
+  color: RGB(150, 150, 150)
+}
+
+a:visited, a:focus{
+  text-decoration: none;
+}

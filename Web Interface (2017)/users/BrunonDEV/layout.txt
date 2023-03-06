@@ -1,0 +1,1 @@
+{"Overlay":{"back":"blue","text":"#ebebe"},"Console":{"back":"red","text":"yellow"},"Variables":{"back":"black","text":"white"},"Storage":{"back":"black","text":"white"}}
